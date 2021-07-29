@@ -114,6 +114,7 @@ h1 {
 
 .hover-left .right {
     width: var(--other-width);
+    filter: grayscale(50%) blur(2px);
 }
 
 .hover-right .right {
@@ -122,6 +123,7 @@ h1 {
 
 .hover-right .left {
     width: var(--other-width);
+    filter: grayscale(50%) blur(2px);
 }
 
 @media(max-width: 800px) {
